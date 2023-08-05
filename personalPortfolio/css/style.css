@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,500;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:linear-gradient(45deg, rgb(78, 2, 46),rgb(0, 0, 0)) ;
+    color: rgb(233, 213, 186);
+    font-family: 'Poppins', sans-serif;
+    height: 420vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgba(112, 6, 66, 0.56);
+    
+}
+
+nav ul{
+
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px; 
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: rgb(233, 48, 165);
+    font-size: 1.1rem
+}
+
+.left{
+    font-size: 1.5rem;
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+}
+
+.firstSection > div{
+    width: 30%;
+}
+
+.leftSection{
+    font-size: 2.5rem;
+    /*margin: 70px 0;*/
+}
+
+
+
+@keyframes identifier {
+    from{
+        margin-left: 90px;
+    }
+    to{
+        margin-left: -10px;
+    }
+}
+
+.rightSection img{
+    animation-name: identifier;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    width: 80%;
+    
+}
+
+.pink{
+    color:rgb(245, 113, 135)
+}
+
+#element{
+    color:rgb(245, 113, 135)
+
+}
+
+.secondSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+    height: 30vh;
+    height: fit-content;
+    width: fit-content;
+    
+    
+}
+
+
+.outer{
+    height: 60vh;
+    width: 50vw;
+    position: relative;
+    top: 30px;
+    left: 10vw;
+    margin: 20px;
+    padding: 20px;
+}
+
+main hr{
+    border: 0;
+    background:rgb(245, 113, 135) ;
+    height: 1px;
+    margin: 60px 84px;
+}
+
+.text-gray{
+    color: gray;
+}
+
+.secondSection .box{
+    background: antiquewhite;
+    width: 43vw;
+    height: 2px;
+    margin: 56px 0px;
+    display: flex;
+    position: relative;
+    top:-12px;
+    left: -13px;
+    
+}
+
+@keyframes identifier2 {
+    from{
+        margin-left:-90px ;
+    }
+    to{
+        margin-left:30px ;
+    }
+}
+
+.secondSection .vertical{
+    animation-name: identifier2;
+    animation-duration: 5s;
+    animation-iteration-count:2;
+    background: antiquewhite;
+    height: 93px;
+    width: 1px;
+    margin: 0 70px;
+    
+    
+}
+
+
+
+.image-top{
+    width: 42px;
+    position: relative;
+    top:-42px;
+    left: -13px;
+}
+
+.text-vertical{
+
+    position: relative;
+    top: 43px;
+    width: 150px;
+    margin: 0 -15px;
+
+}
+
+.text-vertical:hover{
+    
+    color: rgba(225, 152, 56, 0.5);
+    zoom: 120%;
+}
+
+.desc-vertical{
+    position: relative;
+    top: 42px;
+    width: 150px;
+    font-size: 12px;
+    margin: 0 -20px;
+    color: gray;
+}
+
+
+
+.img{
+    
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    top: -5vh;
+    left: 15vh;
+}
+
+
+@keyframes slide{
+    0%{
+        transform: skewX(53deg) translateX(-500px);
+    }
+    100% { 
+        transform: skew(0deg); 
+    }
+}
+
+
+.thirdSection{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    
+    
+
+}
+
+.thirdSection:hover{
+
+    animation: slide 1s ease-out;
+    animation-iteration-count: 1;
+    animation-delay: 0.5s;
+
+}
+
+.thirdSection figure{
+
+    border-radius: 50%;
+    background-color:rgba(0, 0, 0, 0.5);
+    height:350px ;
+    width: 350px;
+    box-shadow: black 0.5;
+}
+
+.thirdSection figure img{
+
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    position :relative;
+    left: 30px;
+}
+
+@keyframes pulse{
+
+    0%{
+        transform: scale(.85);
+    }
+
+    70%{
+        transform: scale(1);
+        box-shadow: 0 0 0 50px rgba(78, 4, 72, 0.382);
+    }
+    100%{
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(78, 5, 77, 0.382);
+    }
+}
+
+.outer2{
+
+    
+    position: relative;
+    top: -37px;
+    left: -38px;
+    height: fit-content;
+}
+
+
+
+.outer2 h1{
+
+    color: antiquewhite;
+}
+
+.outer2 p{
+
+    color:gray;
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
+
+ 
+
+.outer2 a{
+    margin: 11px 35px;
+    padding: 11px 35px;
+    text-decoration: none;
+    
+    border-radius: 35px;
+    color:#ffffff;
+    background-color: rgb(165, 14, 120);
+    position: relative;
+    top:63px;
+    left: 100px;
+}
+
+.outer2 a:hover{
+
+    
+    animation: pulse 1.5s;
+}
+
+.fourthSection{
+
+    height: 105vh;
+    width: 100vw;
+    text-align: center;
+    
+}
+
+
+
+.vertical-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10vh;
+
+  }
+  
+  
+
+  .container{
+    width: 20vw;
+    height: 25vh;
+    padding: 15vw 5vw;
+    border: #72093643 0.125px solid;
+    transition: 0.3s;
+    border-radius: 10px;
+    box-shadow: 0 7px 11px 0 rgba(0,0,0,0.2);
+    
+  }
+
+  .container:hover{
+
+    box-shadow: 0 15px 23px 0 rgba(0,0,0,0.2);
+    width: 26vw;
+    height: 30vh;
+    background-color: #662d2d;
+
+  }
+
+  .container h2{
+
+    position: relative;
+    top: -14vh;
+    left: -2vw;
+
+  }
+
+  .container p{
+    color:gray;
+    margin-top: -20px;
+  }
+  footer{
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.771);
+    border-radius: 25px;
+    height: 57vh;
+  }
+
+  .footer-div1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+
+  .footer-div1 ul{
+    color:antiquewhite;
+    font-size: 28px;
+  }
+
+  .footer-div1 ul:hover{
+
+    font-size: 32px;
+    color: rgb(123, 40, 88);
+
+  }
+
+  .footer-div1 ul li{
+    list-style: none;
+    font-size: 20px;
+    color: gray;
+    font-weight: normal;
+  }
+
+  
+
+  .footer-div1 ul li a {
+    text-decoration: none;
+    color:gray
+  }
+
+  .footer-div2{
+
+    text-align: center;
+    color:rgb(238, 215, 215);
+    margin-top:50px ;
+    font-weight: bold;
+    font-size: 18px;
+
+  }
